@@ -20,6 +20,259 @@
         "version": "2.6.2",
         "cells": [
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "dcc94edd-db91-4f06-b777-f6f9206305c5",
+            "source": {
+              "x": 520,
+              "y": 20
+            },
+            "target": {
+              "x": 520,
+              "y": 650
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
             "position": {
               "x": 80,
               "y": 260
@@ -40,6 +293,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -123,7 +377,6 @@
               ]
             },
             "id": "a9e9146c-3349-4673-a25c-d3120f258653",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Usuario",
@@ -157,6 +410,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -240,7 +494,6 @@
               ]
             },
             "id": "c4aa4833-70aa-4aee-96aa-ff3dbb74dcb3",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Comercio",
@@ -274,6 +527,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -357,7 +611,6 @@
               ]
             },
             "id": "f95079b9-c273-4ce6-b812-d34475f69544",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Registro y\nvinculación de \ndispositivo",
@@ -394,6 +647,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -477,7 +731,6 @@
               ]
             },
             "id": "06a32e5c-bee7-43cb-8db2-5417e0652993",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Generación y\nvalidación de\npagos QR",
@@ -495,8 +748,8 @@
           },
           {
             "position": {
-              "x": 595,
-              "y": 445
+              "x": 575,
+              "y": 460
             },
             "size": {
               "width": 110,
@@ -514,6 +767,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -597,7 +851,6 @@
               ]
             },
             "id": "2dbadd8f-623b-4fdf-ab15-47d4d18303cb",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Recarga de\nsaldo",
@@ -1034,6 +1287,58 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Solicitud de \nrecarga",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Solicitud de \nrecarga"
+            ],
+            "id": "67522ed8-5393-4a21-8a1c-1d68c7357436",
+            "source": {
+              "cell": "a9e9146c-3349-4673-a25c-d3120f258653",
+              "port": "d8151ea1-877e-4045-a2ad-972b7b12ec96"
+            },
+            "target": {
+              "cell": "2dbadd8f-623b-4fdf-ab15-47d4d18303cb",
+              "port": "32eacc99-f551-4e3b-b020-7b6e92f7e2c5"
+            },
+            "vertices": [
+              {
+                "x": 390,
+                "y": 530
+              }
+            ]
+          },
+          {
             "position": {
               "x": 1080,
               "y": 290
@@ -1057,6 +1362,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1140,7 +1446,6 @@
               ]
             },
             "id": "7fa68471-5f88-4af9-8965-f43e6c61a6ce",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "BD de billeteras y \nmovimientos",
@@ -1156,58 +1461,6 @@
               "storesInventory": false,
               "threats": []
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 12,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Solicitud de\nrecarga",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Solicitud de\nrecarga"
-            ],
-            "id": "43195614-9e91-498c-bc8f-d483fd31ebd6",
-            "source": {
-              "cell": "a9e9146c-3349-4673-a25c-d3120f258653",
-              "port": "d8151ea1-877e-4045-a2ad-972b7b12ec96"
-            },
-            "target": {
-              "cell": "2dbadd8f-623b-4fdf-ab15-47d4d18303cb",
-              "port": "32eacc99-f551-4e3b-b020-7b6e92f7e2c5"
-            },
-            "vertices": [
-              {
-                "x": 340,
-                "y": 550
-              }
-            ]
           }
         ],
         "description": "Flujo de registro de dispositivo, pagos QR y recarga de saldo"
