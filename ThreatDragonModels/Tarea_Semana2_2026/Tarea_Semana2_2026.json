@@ -324,8 +324,8 @@
                 "text": "Registro y\nvinculación de \ndispositivo"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -422,12 +422,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "bf9dd4da-8dae-40d6-8a17-b83f39792e86",
+                  "title": "Vinculación fraudulenta de dispositivo",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Impacto: alto. Probabilidad: media. Un atacante vincula su dispositivo a la cuenta de la víctima mediante SIM swap o ingeniería social.",
+                  "mitigation": "Biometría y OTP para vincular, aviso al dispositivo anterior, límites bajos en dispositivos nuevos.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -444,8 +466,8 @@
                 "text": "Generación y\nvalidación de\npagos QR"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -542,12 +564,47 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "04e9a013-4ccc-403f-a587-9d88e8ec9ba0",
+                  "title": "QR del comercio alterado o falso",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Impacto: alto. Probabilidad: alta. Se pega o sustituye un QR falso para desviar el pago a un tercero.",
+                  "mitigation": "Mostrar el nombre verificado del comercio antes de confirmar, QR dinámicos firmados por el banco, registro de comercios validados.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                },
+                {
+                  "id": "0a1d5346-5dc7-43f6-8b31-5c76153bbfde",
+                  "title": "Negación de una operación",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Impacto: medio. Probabilidad: media. Usuario o comercio niega un pago y no hay registro firmado con sello de tiempo.",
+                  "mitigation": "Logs firmados con sello de tiempo.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -564,8 +621,8 @@
                 "text": "Recarga de\nsaldo"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -662,12 +719,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "92c59edc-b4ea-4e94-98f0-ab143360dbad",
+                  "title": "Saturación del servicio de recargas",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "Impacto: medio. Probabilidad: media. Ráfagas de solicitudes de recarga dejan el servicio no disponible.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -719,6 +798,10 @@
               {
                 "x": 300,
                 "y": 160
+              },
+              {
+                "x": 430,
+                "y": 120
               }
             ]
           },
@@ -890,7 +973,8 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -911,13 +995,32 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
+              "threats": [
+                {
+                  "id": "7c0a3494-1984-4174-a5a0-f536e38bfed8",
+                  "title": "Replay o alteración del monto",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Impacto: alto. Probabilidad: media. Se reutiliza un QR ya pagado o se modifica el monto en tránsito.",
+                  "mitigation": "QR de un solo uso con expiración corta, nonce y monto firmado, validación en servidor.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 2,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "QR escaneado\ny monto"
@@ -1168,11 +1271,13 @@
                 "text": "BD de billeteras y \nmovimientos"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1269,13 +1374,33 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "5d86d54c-7a41-4ee0-ae88-9185bbfe5bb7",
+                  "title": "Filtración de saldos y datos personales",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Impacto: alto. Probabilidad: media. Inyección SQL o acceso indebido expone saldos, historial y datos personales.",
+                  "mitigation": "Cifrado en reposo, consultas parametrizadas, mínimo privilegio, auditoría de accesos, segmentación en TB2.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -1404,6 +1529,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 1
+    "threatTop": 8
   }
 }
