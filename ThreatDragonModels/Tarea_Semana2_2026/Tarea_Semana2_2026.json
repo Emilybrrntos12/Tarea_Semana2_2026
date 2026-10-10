@@ -21,8 +21,8 @@
         "cells": [
           {
             "position": {
-              "x": 120,
-              "y": 270
+              "x": 80,
+              "y": 260
             },
             "size": {
               "width": 112.5,
@@ -138,8 +138,8 @@
           },
           {
             "position": {
-              "x": 660,
-              "y": 180
+              "x": 80,
+              "y": 460
             },
             "size": {
               "width": 112.5,
@@ -255,8 +255,8 @@
           },
           {
             "position": {
-              "x": 440,
-              "y": 120
+              "x": 600,
+              "y": 60
             },
             "size": {
               "width": 100,
@@ -375,8 +375,8 @@
           },
           {
             "position": {
-              "x": 425,
-              "y": 370
+              "x": 585,
+              "y": 240
             },
             "size": {
               "width": 130,
@@ -495,8 +495,8 @@
           },
           {
             "position": {
-              "x": 232.5,
-              "y": 530
+              "x": 595,
+              "y": 445
             },
             "size": {
               "width": 110,
@@ -661,7 +661,7 @@
             "vertices": [
               {
                 "x": 300,
-                "y": 200
+                "y": 160
               }
             ]
           },
@@ -710,7 +710,12 @@
               "cell": "a9e9146c-3349-4673-a25c-d3120f258653",
               "port": "d8151ea1-877e-4045-a2ad-972b7b12ec96"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 290,
+                "y": 340
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -759,8 +764,8 @@
             },
             "vertices": [
               {
-                "x": 350,
-                "y": 260
+                "x": 310,
+                "y": 230
               }
             ]
           },
@@ -811,8 +816,8 @@
             },
             "vertices": [
               {
-                "x": 400,
-                "y": 350
+                "x": 360,
+                "y": 280
               }
             ]
           },
@@ -855,60 +860,22 @@
             "id": "52fee0b3-01ff-481c-8370-dd89e89cc052",
             "source": {
               "cell": "c4aa4833-70aa-4aee-96aa-ff3dbb74dcb3",
-              "port": "d8151ea1-877e-4045-a2ad-972b7b12ec96"
+              "port": "f5b0f00e-f2f7-4828-a79c-be2087d7b08a"
             },
             "target": {
               "cell": "06a32e5c-bee7-43cb-8db2-5417e0652993",
-              "port": "7735af02-801c-4394-8e3f-7f12e99bcc09"
+              "port": "19f9e009-04f8-4bf6-b3d9-e9fc135dbeff"
             },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
+            "vertices": [
+              {
+                "x": 390,
+                "y": 410
+              },
+              {
+                "x": 500,
+                "y": 390
               }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Solicitud de\nrecarga",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Solicitud de\nrecarga"
-            ],
-            "id": "43195614-9e91-498c-bc8f-d483fd31ebd6",
-            "source": {
-              "cell": "a9e9146c-3349-4673-a25c-d3120f258653",
-              "port": "d8151ea1-877e-4045-a2ad-972b7b12ec96"
-            },
-            "target": {
-              "cell": "2dbadd8f-623b-4fdf-ab15-47d4d18303cb",
-              "port": "7735af02-801c-4394-8e3f-7f12e99bcc09"
-            },
-            "vertices": []
+            ]
           },
           {
             "shape": "flow",
@@ -953,9 +920,14 @@
             },
             "target": {
               "cell": "7fa68471-5f88-4af9-8965-f43e6c61a6ce",
-              "port": "24462606-3669-44f2-a2ac-8de981caa9f0"
+              "port": "1c85e734-276b-40c5-9b12-8eb9fed95208"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 880,
+                "y": 360
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -977,7 +949,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Acreditación de \nsaldo",
+              "name": "Acreditación\nde saldo",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -991,9 +963,9 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Acreditación de \nsaldo"
+              "Acreditación\nde saldo"
             ],
-            "id": "c8e906f4-9c9d-4323-b760-49286fe2e608",
+            "id": "272c7996-620a-435b-bdf2-5d7fa0233ed9",
             "source": {
               "cell": "2dbadd8f-623b-4fdf-ab15-47d4d18303cb",
               "port": "8adbc365-8e8f-4021-beb6-324c000c6669"
@@ -1004,8 +976,8 @@
             },
             "vertices": [
               {
-                "x": 610,
-                "y": 575
+                "x": 970,
+                "y": 460
               }
             ]
           },
@@ -1054,12 +1026,17 @@
               "cell": "7fa68471-5f88-4af9-8965-f43e6c61a6ce",
               "port": "1c85e734-276b-40c5-9b12-8eb9fed95208"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 830,
+                "y": 220
+              }
+            ]
           },
           {
             "position": {
-              "x": 800,
-              "y": 340
+              "x": 1080,
+              "y": 290
             },
             "size": {
               "width": 120,
@@ -1179,6 +1156,58 @@
               "storesInventory": false,
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 12,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Solicitud de\nrecarga",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Solicitud de\nrecarga"
+            ],
+            "id": "43195614-9e91-498c-bc8f-d483fd31ebd6",
+            "source": {
+              "cell": "a9e9146c-3349-4673-a25c-d3120f258653",
+              "port": "d8151ea1-877e-4045-a2ad-972b7b12ec96"
+            },
+            "target": {
+              "cell": "2dbadd8f-623b-4fdf-ab15-47d4d18303cb",
+              "port": "32eacc99-f551-4e3b-b020-7b6e92f7e2c5"
+            },
+            "vertices": [
+              {
+                "x": 340,
+                "y": 550
+              }
+            ]
           }
         ],
         "description": "Flujo de registro de dispositivo, pagos QR y recarga de saldo"
