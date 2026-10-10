@@ -1,0 +1,18 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "",
+  "summary": {
+    "title": "Tarea_Semana2_2026",
+    "owner": "Emily Barrientos",
+    "description": "Modelo de amenazas de una app bancaria móvil que permite registrar dispositivos, generar y escanear códigos QR para pagar a comercios y recargar saldo desde tarjeta.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
